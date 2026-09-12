@@ -2195,7 +2195,11 @@ PrefabInstance:
     - target: {fileID: 178535627725073038, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
       propertyPath: 'actions.Array.data[0]'
       value: 
-      objectReference: {fileID: 451308117}
+      objectReference: {fileID: 451308123}
+    - target: {fileID: 178535627725073038, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
+      propertyPath: 'actions.Array.data[1]'
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 685433705554519169, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
       propertyPath: m_LocalScale.x
       value: 41.442856
@@ -2250,7 +2254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7943089749138282332, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
       propertyPath: m_Name
-      value: Trigger Cube
+      value: CES_danger-gauche
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2258,14 +2262,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7943089749138282332, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 451308117}
+      addedObject: {fileID: 451308123}
   m_SourcePrefab: {fileID: 100100000, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
 --- !u!1 &451308116 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7943089749138282332, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
   m_PrefabInstance: {fileID: 451308115}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &451308117
+--- !u!114 &451308123
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2278,8 +2282,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.SceneAction
   operation: 0
-  sceneAsset: {fileID: 102900000, guid: f7cf615481da57848bee813729d57d8e, type: 3}
-  scenePath: Assets/_/Scenes/game-over.unity
+  sceneAsset: {fileID: 102900000, guid: ad9ef2531c75e0a4290e4e45e3c1620e, type: 3}
+  scenePath: Assets/_/Scenes/main.unity
   additive: 0
 --- !u!1001 &469083390
 PrefabInstance:
@@ -4263,7 +4267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7943089749138282332, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
       propertyPath: m_Name
-      value: Trigger Cube (2)
+      value: CES-victoire
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10457,7 +10461,11 @@ PrefabInstance:
     - target: {fileID: 178535627725073038, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
       propertyPath: 'actions.Array.data[0]'
       value: 
-      objectReference: {fileID: 1970308145}
+      objectReference: {fileID: 1970308151}
+    - target: {fileID: 178535627725073038, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
+      propertyPath: 'actions.Array.data[1]'
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 685433705554519169, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
       propertyPath: m_LocalScale.x
       value: 41.314777
@@ -10512,7 +10520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7943089749138282332, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
       propertyPath: m_Name
-      value: Trigger Cube (1)
+      value: CES-danger-droite
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10520,14 +10528,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7943089749138282332, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1970308145}
+      addedObject: {fileID: 1970308151}
   m_SourcePrefab: {fileID: 100100000, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
 --- !u!1 &1970308144 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7943089749138282332, guid: 1d70f6daaadb94b568a178e5b96eca50, type: 3}
   m_PrefabInstance: {fileID: 1970308143}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1970308145
+--- !u!114 &1970308151
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10540,8 +10548,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.SceneAction
   operation: 0
-  sceneAsset: {fileID: 102900000, guid: f7cf615481da57848bee813729d57d8e, type: 3}
-  scenePath: Assets/_/Scenes/game-over.unity
+  sceneAsset: {fileID: 102900000, guid: ad9ef2531c75e0a4290e4e45e3c1620e, type: 3}
+  scenePath: Assets/_/Scenes/main.unity
   additive: 0
 --- !u!1001 &1980764054
 PrefabInstance:
